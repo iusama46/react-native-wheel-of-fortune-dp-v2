@@ -351,10 +351,11 @@ class WheelOfFortune extends Component {
             <Animated.View
                 style={{
 
-                    shadowColor: 'rgba(0,0,0, .4)', // IOS
+                  /*  shadowColor: 'rgba(0,0,0, .4)', // IOS
                     shadowOffset: { height: 4, width: 4, }, // IOS
                     shadowOpacity: 1, // IOS
                     shadowRadius: 1, //IOS
+                    */
 
                     elevation: 60, // Android,
                     top: 16,
