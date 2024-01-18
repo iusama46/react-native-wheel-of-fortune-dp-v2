@@ -297,11 +297,11 @@ class WheelOfFortune extends Component {
                         style={{
                             transform: [{ rotate: `-${this.angleOffset}deg` }],
                             margin: 10,
-                            shadowColor: 'rgba(0,0,0, 1)', // IOS
+                           /* shadowColor: 'rgba(0,0,0, 1)', // IOS
                             shadowOffset: { height: 6, width: 6, }, // IOS
                             shadowOpacity: 10, // IOS
                             shadowRadius: 16, //IOS
-                            elevation: 10, // Android
+                            elevation: 10, // Android*/
 
                         }}>
                         <G y={width / 2} x={width / 2}>
